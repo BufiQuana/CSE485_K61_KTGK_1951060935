@@ -37,7 +37,7 @@
         public function getUser($madg){
             $conn = $this->connectDb();
           
-            $sql = "SELECT * FROM docgia where madg=".$madg.;
+            $sql = "SELECT * FROM docgia where madg=".$madg.
             $result = mysqli_query($conn,$sql);
             
             return $result;
